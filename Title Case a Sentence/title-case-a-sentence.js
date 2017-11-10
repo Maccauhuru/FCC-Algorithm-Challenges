@@ -12,7 +12,7 @@ function titleCase(str) {
     str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
   }
   
-  //return the joined strings after capitalization of thier first chars
+  //return the joined strings after capitalization of their first chars
   return str.join(" ");
 }
 
