@@ -10,6 +10,6 @@ function findLongestWord(str) {
       longestWord = strSplit[i].length;
     }
   }
-  //return the longest word
+  //return the length of the longest word
   return longestWord;
 }
