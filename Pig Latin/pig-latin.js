@@ -11,7 +11,7 @@ function translatePigLatin(str) {
     var vowelIndice = str.indexOf(str.match(regex)[0]);
 
     // Take the string from the first vowel to the last char
-    // then add the consonants that were previously omitted and add the ending.
+    // then add the consonants that were previously omitted and add the ending "ay".
     pigLatin = str.substr(vowelIndice) + str.substr(0, vowelIndice) + "ay";
   }
 
